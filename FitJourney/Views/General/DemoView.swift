@@ -36,6 +36,8 @@ struct TutorialsView: View {
                     .fontWeight(.bold)
                 Text("Here's a sample video demonstrating the Jumping Jack exercise by FitJourney")
                     .font(.body)
+                    .multilineTextAlignment(.center)
+                    .padding([.leading,.trailing],10)
                 Spacer()
                     .frame(maxHeight: 30)
                 if let player = viewModel.player {
