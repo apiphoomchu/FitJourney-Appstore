@@ -8,17 +8,81 @@
 
 /* Begin PBXBuildFile section */
 		C16D28512BB3FB77007BC48E /* FitJourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D28502BB3FB77007BC48E /* FitJourneyApp.swift */; };
-		C16D28532BB3FB77007BC48E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D28522BB3FB77007BC48E /* ContentView.swift */; };
 		C16D28552BB3FB78007BC48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D28542BB3FB78007BC48E /* Assets.xcassets */; };
-		C16D28582BB3FB78007BC48E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D28572BB3FB78007BC48E /* Preview Assets.xcassets */; };
+		C17603182BB40DBD00C50F75 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602EA2BB40DBD00C50F75 /* Date+Extension.swift */; };
+		C17603192BB40DBD00C50F75 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602EB2BB40DBD00C50F75 /* CGPointExtension.swift */; };
+		C176031A2BB40DBD00C50F75 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = C17602ED2BB40DBD00C50F75 /* demo.mov */; };
+		C176031B2BB40DBD00C50F75 /* WeeksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F02BB40DBD00C50F75 /* WeeksTabView.swift */; };
+		C176031C2BB40DBD00C50F75 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F12BB40DBD00C50F75 /* WeekView.swift */; };
+		C176031D2BB40DBD00C50F75 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F32BB40DBD00C50F75 /* DemoView.swift */; };
+		C176031E2BB40DBD00C50F75 /* StreakSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F42BB40DBD00C50F75 /* StreakSectionView.swift */; };
+		C176031F2BB40DBD00C50F75 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F52BB40DBD00C50F75 /* OnBoardView.swift */; };
+		C17603202BB40DBD00C50F75 /* ActivityGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F72BB40DBD00C50F75 /* ActivityGraphView.swift */; };
+		C17603212BB40DBD00C50F75 /* FitivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F82BB40DBD00C50F75 /* FitivityView.swift */; };
+		C17603222BB40DBD00C50F75 /* ActivityGraphWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602FA2BB40DBD00C50F75 /* ActivityGraphWeekView.swift */; };
+		C17603232BB40DBD00C50F75 /* FitivityWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602FB2BB40DBD00C50F75 /* FitivityWeekView.swift */; };
+		C17603242BB40DBD00C50F75 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602FC2BB40DBD00C50F75 /* ActivityManager.swift */; };
+		C17603252BB40DBD00C50F75 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602FD2BB40DBD00C50F75 /* SettingView.swift */; };
+		C17603262BB40DBD00C50F75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602FE2BB40DBD00C50F75 /* ContentView.swift */; };
+		C17603272BB40DBD00C50F75 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603002BB40DBD00C50F75 /* ActivityRingView.swift */; };
+		C17603282BB40DBD00C50F75 /* CircleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603012BB40DBD00C50F75 /* CircleTimer.swift */; };
+		C17603292BB40DBD00C50F75 /* StickFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603022BB40DBD00C50F75 /* StickFigureView.swift */; };
+		C176032A2BB40DBD00C50F75 /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603032BB40DBD00C50F75 /* TimeViewModel.swift */; };
+		C176032B2BB40DBD00C50F75 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603052BB40DBD00C50F75 /* ExerciseDetailView.swift */; };
+		C176032C2BB40DBD00C50F75 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603062BB40DBD00C50F75 /* ExerciseView.swift */; };
+		C176032D2BB40DBD00C50F75 /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603082BB40DBD00C50F75 /* WeekStore.swift */; };
+		C176032E2BB40DBD00C50F75 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603092BB40DBD00C50F75 /* Week.swift */; };
+		C176032F2BB40DBD00C50F75 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176030B2BB40DBD00C50F75 /* CameraViewController.swift */; };
+		C17603302BB40DBD00C50F75 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176030C2BB40DBD00C50F75 /* CameraView.swift */; };
+		C17603312BB40DBD00C50F75 /* CameraViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176030D2BB40DBD00C50F75 /* CameraViewWrapper.swift */; };
+		C17603322BB40DBD00C50F75 /* PoseEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176030F2BB40DBD00C50F75 /* PoseEstimator.swift */; };
+		C17603332BB40DBD00C50F75 /* TimeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603102BB40DBD00C50F75 /* TimeDirection.swift */; };
+		C17603342BB40DBD00C50F75 /* KeyboardAdapt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603112BB40DBD00C50F75 /* KeyboardAdapt.swift */; };
+		C17603352BB40DBD00C50F75 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603122BB40DBD00C50F75 /* CameraManager.swift */; };
+		C17603362BB40DBD00C50F75 /* OnboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603142BB40DBD00C50F75 /* OnboardData.swift */; };
+		C17603372BB40DBD00C50F75 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603152BB40DBD00C50F75 /* CoreDataStack.swift */; };
+		C17603382BB40DBD00C50F75 /* UserDataEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603162BB40DBD00C50F75 /* UserDataEnum.swift */; };
+		C17603392BB40DBD00C50F75 /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603172BB40DBD00C50F75 /* ExerciseData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C16D284D2BB3FB77007BC48E /* FitJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16D28502BB3FB77007BC48E /* FitJourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitJourneyApp.swift; sourceTree = "<group>"; };
-		C16D28522BB3FB77007BC48E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C16D28542BB3FB78007BC48E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C16D28572BB3FB78007BC48E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C17602EA2BB40DBD00C50F75 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C17602EB2BB40DBD00C50F75 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		C17602ED2BB40DBD00C50F75 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
+		C17602F02BB40DBD00C50F75 /* WeeksTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksTabView.swift; sourceTree = "<group>"; };
+		C17602F12BB40DBD00C50F75 /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		C17602F32BB40DBD00C50F75 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		C17602F42BB40DBD00C50F75 /* StreakSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreakSectionView.swift; sourceTree = "<group>"; };
+		C17602F52BB40DBD00C50F75 /* OnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		C17602F72BB40DBD00C50F75 /* ActivityGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityGraphView.swift; sourceTree = "<group>"; };
+		C17602F82BB40DBD00C50F75 /* FitivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitivityView.swift; sourceTree = "<group>"; };
+		C17602FA2BB40DBD00C50F75 /* ActivityGraphWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityGraphWeekView.swift; sourceTree = "<group>"; };
+		C17602FB2BB40DBD00C50F75 /* FitivityWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitivityWeekView.swift; sourceTree = "<group>"; };
+		C17602FC2BB40DBD00C50F75 /* ActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		C17602FD2BB40DBD00C50F75 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		C17602FE2BB40DBD00C50F75 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C17603002BB40DBD00C50F75 /* ActivityRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
+		C17603012BB40DBD00C50F75 /* CircleTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTimer.swift; sourceTree = "<group>"; };
+		C17603022BB40DBD00C50F75 /* StickFigureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickFigureView.swift; sourceTree = "<group>"; };
+		C17603032BB40DBD00C50F75 /* TimeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewModel.swift; sourceTree = "<group>"; };
+		C17603052BB40DBD00C50F75 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		C17603062BB40DBD00C50F75 /* ExerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		C17603082BB40DBD00C50F75 /* WeekStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
+		C17603092BB40DBD00C50F75 /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		C176030B2BB40DBD00C50F75 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C176030C2BB40DBD00C50F75 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		C176030D2BB40DBD00C50F75 /* CameraViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewWrapper.swift; sourceTree = "<group>"; };
+		C176030F2BB40DBD00C50F75 /* PoseEstimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseEstimator.swift; sourceTree = "<group>"; };
+		C17603102BB40DBD00C50F75 /* TimeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDirection.swift; sourceTree = "<group>"; };
+		C17603112BB40DBD00C50F75 /* KeyboardAdapt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAdapt.swift; sourceTree = "<group>"; };
+		C17603122BB40DBD00C50F75 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		C17603142BB40DBD00C50F75 /* OnboardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardData.swift; sourceTree = "<group>"; };
+		C17603152BB40DBD00C50F75 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		C17603162BB40DBD00C50F75 /* UserDataEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataEnum.swift; sourceTree = "<group>"; };
+		C17603172BB40DBD00C50F75 /* ExerciseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +115,148 @@
 		C16D284F2BB3FB77007BC48E /* FitJourney */ = {
 			isa = PBXGroup;
 			children = (
+				C17603132BB40DBD00C50F75 /* Data */,
+				C17602E92BB40DBD00C50F75 /* Extensions */,
+				C17603072BB40DBD00C50F75 /* Modals */,
+				C17602EC2BB40DBD00C50F75 /* Resources */,
+				C176030A2BB40DBD00C50F75 /* UIKit */,
+				C176030E2BB40DBD00C50F75 /* Utils */,
+				C17602EE2BB40DBD00C50F75 /* Views */,
 				C16D28502BB3FB77007BC48E /* FitJourneyApp.swift */,
-				C16D28522BB3FB77007BC48E /* ContentView.swift */,
 				C16D28542BB3FB78007BC48E /* Assets.xcassets */,
-				C16D28562BB3FB78007BC48E /* Preview Content */,
 			);
 			path = FitJourney;
 			sourceTree = "<group>";
 		};
-		C16D28562BB3FB78007BC48E /* Preview Content */ = {
+		C17602E92BB40DBD00C50F75 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C16D28572BB3FB78007BC48E /* Preview Assets.xcassets */,
+				C17602EA2BB40DBD00C50F75 /* Date+Extension.swift */,
+				C17602EB2BB40DBD00C50F75 /* CGPointExtension.swift */,
 			);
-			path = "Preview Content";
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C17602EC2BB40DBD00C50F75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C17602ED2BB40DBD00C50F75 /* demo.mov */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C17602EE2BB40DBD00C50F75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C17602EF2BB40DBD00C50F75 /* Week */,
+				C17602F22BB40DBD00C50F75 /* General */,
+				C17602FF2BB40DBD00C50F75 /* Component */,
+				C17603042BB40DBD00C50F75 /* Exercise */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C17602EF2BB40DBD00C50F75 /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				C17602F02BB40DBD00C50F75 /* WeeksTabView.swift */,
+				C17602F12BB40DBD00C50F75 /* WeekView.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		C17602F22BB40DBD00C50F75 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C17602F32BB40DBD00C50F75 /* DemoView.swift */,
+				C17602F42BB40DBD00C50F75 /* StreakSectionView.swift */,
+				C17602F52BB40DBD00C50F75 /* OnBoardView.swift */,
+				C17602F62BB40DBD00C50F75 /* FitivityView */,
+				C17602F92BB40DBD00C50F75 /* FitivityWeekView */,
+				C17602FC2BB40DBD00C50F75 /* ActivityManager.swift */,
+				C17602FD2BB40DBD00C50F75 /* SettingView.swift */,
+				C17602FE2BB40DBD00C50F75 /* ContentView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		C17602F62BB40DBD00C50F75 /* FitivityView */ = {
+			isa = PBXGroup;
+			children = (
+				C17602F72BB40DBD00C50F75 /* ActivityGraphView.swift */,
+				C17602F82BB40DBD00C50F75 /* FitivityView.swift */,
+			);
+			path = FitivityView;
+			sourceTree = "<group>";
+		};
+		C17602F92BB40DBD00C50F75 /* FitivityWeekView */ = {
+			isa = PBXGroup;
+			children = (
+				C17602FA2BB40DBD00C50F75 /* ActivityGraphWeekView.swift */,
+				C17602FB2BB40DBD00C50F75 /* FitivityWeekView.swift */,
+			);
+			path = FitivityWeekView;
+			sourceTree = "<group>";
+		};
+		C17602FF2BB40DBD00C50F75 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C17603002BB40DBD00C50F75 /* ActivityRingView.swift */,
+				C17603012BB40DBD00C50F75 /* CircleTimer.swift */,
+				C17603022BB40DBD00C50F75 /* StickFigureView.swift */,
+				C17603032BB40DBD00C50F75 /* TimeViewModel.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C17603042BB40DBD00C50F75 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				C17603052BB40DBD00C50F75 /* ExerciseDetailView.swift */,
+				C17603062BB40DBD00C50F75 /* ExerciseView.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		C17603072BB40DBD00C50F75 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				C17603082BB40DBD00C50F75 /* WeekStore.swift */,
+				C17603092BB40DBD00C50F75 /* Week.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		C176030A2BB40DBD00C50F75 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C176030B2BB40DBD00C50F75 /* CameraViewController.swift */,
+				C176030C2BB40DBD00C50F75 /* CameraView.swift */,
+				C176030D2BB40DBD00C50F75 /* CameraViewWrapper.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		C176030E2BB40DBD00C50F75 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C176030F2BB40DBD00C50F75 /* PoseEstimator.swift */,
+				C17603102BB40DBD00C50F75 /* TimeDirection.swift */,
+				C17603112BB40DBD00C50F75 /* KeyboardAdapt.swift */,
+				C17603122BB40DBD00C50F75 /* CameraManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C17603132BB40DBD00C50F75 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C17603142BB40DBD00C50F75 /* OnboardData.swift */,
+				C17603152BB40DBD00C50F75 /* CoreDataStack.swift */,
+				C17603162BB40DBD00C50F75 /* UserDataEnum.swift */,
+				C17603172BB40DBD00C50F75 /* ExerciseData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +317,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16D28582BB3FB78007BC48E /* Preview Assets.xcassets in Resources */,
 				C16D28552BB3FB78007BC48E /* Assets.xcassets in Resources */,
+				C176031A2BB40DBD00C50F75 /* demo.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +329,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16D28532BB3FB77007BC48E /* ContentView.swift in Sources */,
+				C17603232BB40DBD00C50F75 /* FitivityWeekView.swift in Sources */,
+				C176032B2BB40DBD00C50F75 /* ExerciseDetailView.swift in Sources */,
+				C176032E2BB40DBD00C50F75 /* Week.swift in Sources */,
+				C17603292BB40DBD00C50F75 /* StickFigureView.swift in Sources */,
+				C17603352BB40DBD00C50F75 /* CameraManager.swift in Sources */,
+				C17603392BB40DBD00C50F75 /* ExerciseData.swift in Sources */,
+				C176031E2BB40DBD00C50F75 /* StreakSectionView.swift in Sources */,
+				C17603362BB40DBD00C50F75 /* OnboardData.swift in Sources */,
+				C17603372BB40DBD00C50F75 /* CoreDataStack.swift in Sources */,
+				C176032F2BB40DBD00C50F75 /* CameraViewController.swift in Sources */,
 				C16D28512BB3FB77007BC48E /* FitJourneyApp.swift in Sources */,
+				C17603252BB40DBD00C50F75 /* SettingView.swift in Sources */,
+				C17603222BB40DBD00C50F75 /* ActivityGraphWeekView.swift in Sources */,
+				C17603212BB40DBD00C50F75 /* FitivityView.swift in Sources */,
+				C176031D2BB40DBD00C50F75 /* DemoView.swift in Sources */,
+				C17603202BB40DBD00C50F75 /* ActivityGraphView.swift in Sources */,
+				C176031C2BB40DBD00C50F75 /* WeekView.swift in Sources */,
+				C17603312BB40DBD00C50F75 /* CameraViewWrapper.swift in Sources */,
+				C17603272BB40DBD00C50F75 /* ActivityRingView.swift in Sources */,
+				C176032C2BB40DBD00C50F75 /* ExerciseView.swift in Sources */,
+				C176031F2BB40DBD00C50F75 /* OnBoardView.swift in Sources */,
+				C17603322BB40DBD00C50F75 /* PoseEstimator.swift in Sources */,
+				C17603282BB40DBD00C50F75 /* CircleTimer.swift in Sources */,
+				C17603182BB40DBD00C50F75 /* Date+Extension.swift in Sources */,
+				C17603382BB40DBD00C50F75 /* UserDataEnum.swift in Sources */,
+				C17603262BB40DBD00C50F75 /* ContentView.swift in Sources */,
+				C176032D2BB40DBD00C50F75 /* WeekStore.swift in Sources */,
+				C17603242BB40DBD00C50F75 /* ActivityManager.swift in Sources */,
+				C176032A2BB40DBD00C50F75 /* TimeViewModel.swift in Sources */,
+				C176031B2BB40DBD00C50F75 /* WeeksTabView.swift in Sources */,
+				C17603342BB40DBD00C50F75 /* KeyboardAdapt.swift in Sources */,
+				C17603302BB40DBD00C50F75 /* CameraView.swift in Sources */,
+				C17603332BB40DBD00C50F75 /* TimeDirection.swift in Sources */,
+				C17603192BB40DBD00C50F75 /* CGPointExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
