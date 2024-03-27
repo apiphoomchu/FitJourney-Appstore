@@ -19,7 +19,7 @@ struct SettingView: View {
     @FocusState private var focusedField: GeneralField?
     @State private var showInputAlert = false
     @State private var showResetConfirm = false
-    
+    @State private var isShowTutorials = false
     var body: some View {
         NavigationView{
             ScrollView{
@@ -146,6 +146,21 @@ struct SettingView: View {
                             }
                             GroupBox{
                                 HStack{
+                                    Text("Show Demo")
+                                        .fontWeight(.semibold)
+                                    Spacer()
+                                    Button(action:{
+                                        dismiss()
+                                        isShowTutorials.toggle()
+                                    }){
+                                        Text("Show")
+                                            .fontWeight(.semibold)
+                                            .foregroundStyle(userState == .normal ? .red : .blue)
+                                    }
+                                }
+                            }
+                            GroupBox{
+                                HStack{
                                     Text("Rest All Data")
                                         .fontWeight(.semibold)
                                     Spacer()
@@ -175,6 +190,9 @@ struct SettingView: View {
                             )
                         }
                 }
+                .sheet(isPresented: $isShowTutorials){
+                    TutorialsView()
+                }
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         doneButton
@@ -189,9 +207,4 @@ struct SettingView: View {
             dismiss()
         }.foregroundStyle(userState == .normal ? .red : .blue)
     }
-}
-
-
-#Preview {
-    SettingView()
 }

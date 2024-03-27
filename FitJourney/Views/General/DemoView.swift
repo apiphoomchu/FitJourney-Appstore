@@ -27,6 +27,7 @@ class VideoPlayerViewModel: ObservableObject {
 struct TutorialsView: View {
     @StateObject private var viewModel = VideoPlayerViewModel()
     @Environment(\.dismiss) var dismiss
+    @AppStorage("userState") var userState: UserState = .normal
     var body: some View {
         NavigationView{
             VStack {
@@ -55,7 +56,7 @@ struct TutorialsView: View {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button("Done") {
                             dismiss()
-                        }.foregroundStyle(Color(UIDevice.current.userInterfaceIdiom == .pad ? .red : .blue))
+                        }.foregroundStyle(Color(userState == .normal ? .red : .blue))
                     }
                 }
         }
