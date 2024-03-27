@@ -263,7 +263,7 @@ struct ExerciseView: View {
                     print("Could not fetch activities: \(error)")
                 }
                 
-                
+                poseEstimator.caloriesBurned = 0.0
                 isFinishExercise = true
                 
             }
