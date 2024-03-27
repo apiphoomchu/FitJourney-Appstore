@@ -150,7 +150,6 @@ struct SettingView: View {
                                         .fontWeight(.semibold)
                                     Spacer()
                                     Button(action:{
-                                        dismiss()
                                         isShowTutorials.toggle()
                                     }){
                                         Text("Show")
