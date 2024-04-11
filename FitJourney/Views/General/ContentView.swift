@@ -145,9 +145,6 @@ struct ContentView: View {
                     .sheet(isPresented: $isShowFitivitySummaryWeek){
                         FitivityWeekView()
                     }
-                    .sheet(isPresented: $isShowTutorials){
-                        TutorialsView()
-                    }
                 }
                 OnBoardView()
             }

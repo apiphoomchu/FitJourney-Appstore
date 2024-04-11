@@ -146,20 +146,6 @@ struct SettingView: View {
                             }
                             GroupBox{
                                 HStack{
-                                    Text("Show Demo")
-                                        .fontWeight(.semibold)
-                                    Spacer()
-                                    Button(action:{
-                                        isShowTutorials.toggle()
-                                    }){
-                                        Text("Show")
-                                            .fontWeight(.semibold)
-                                            .foregroundStyle(userState == .normal ? .red : .blue)
-                                    }
-                                }
-                            }
-                            GroupBox{
-                                HStack{
                                     Text("Rest All Data")
                                         .fontWeight(.semibold)
                                     Spacer()
@@ -188,9 +174,6 @@ struct SettingView: View {
                                 secondaryButton: .cancel()
                             )
                         }
-                }
-                .sheet(isPresented: $isShowTutorials){
-                    TutorialsView()
                 }
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {

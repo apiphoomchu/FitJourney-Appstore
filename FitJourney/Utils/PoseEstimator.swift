@@ -49,7 +49,7 @@ class PoseEstimator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate, Obs
     func detectedBodyPose(request: VNRequest, error: Error?) {
         guard let bodyPoseResults = request.results as? [VNHumanBodyPoseObservation],
               let bodyParts = try? bodyPoseResults.first?.recognizedPoints(.all) else { return }
-        DispatchQueue.main.async {
+        DispatchQueue.main.async { 
             self.bodyParts = bodyParts
             self.analyzeCurrentExercise(bodyParts: self.bodyParts)
         }
