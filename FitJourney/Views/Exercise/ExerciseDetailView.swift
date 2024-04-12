@@ -167,21 +167,24 @@ struct ExerciseDetailView: View {
     }
     
     private var startExerciseButton: some View {
-        Button("Start Exercise") {
+        Button {
             if(cameraAccessGranted){
                 self.isExerciseViewPresented = true
                 dismiss()
             }else{
                 isShowCameraGrant.toggle()
             }
+        }label: {
+            Text("Start Exercise")
+                .padding(.vertical,15)
+                .frame(minWidth: 100, maxWidth: .infinity, minHeight: 44)
+                .controlSize(.large)
+                .background(userState == .normal ? .pink : .blue)
+                .fontWeight(.bold)
+                .foregroundStyle(.white)
+                .cornerRadius(15)
         }
-        .padding(.vertical,15)
-        .frame(minWidth: 100, maxWidth: .infinity, minHeight: 44)
-        .controlSize(.large)
-        .background(userState == .normal ? .pink : .blue)
-        .fontWeight(.bold)
-        .foregroundStyle(.white)
-        .cornerRadius(15)
+
         
     }
     

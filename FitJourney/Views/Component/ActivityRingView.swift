@@ -42,12 +42,6 @@ struct ActivityRingView: View {
                 .stroke(startColor.opacity(0.15), lineWidth: thickness)
                 .frame(width:CGFloat(ringRadius) * 2.0)
             Circle()
-                .stroke(Color(.systemGray2), lineWidth: 1.0)
-                .frame(width:(CGFloat(ringRadius) * 2.0) + thickness)
-            Circle()
-                .stroke(Color(.systemGray2), lineWidth: 1.0)
-                .frame(width:(CGFloat(ringRadius) * 2.0) - thickness)
-            Circle()
                 .trim(from: 0, to: CGFloat(self.progress))
                 .stroke(
                     activityAngularGradient,

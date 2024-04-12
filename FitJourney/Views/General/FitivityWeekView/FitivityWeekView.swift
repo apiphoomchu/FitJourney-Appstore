@@ -41,18 +41,14 @@ struct FitivityWeekView: View {
                                 .font(.title3)
                                 .foregroundColor(.primary)
                         }
-                        .sheet(isPresented: $showDatePicker) {
-                            VStack {
+                        .popover(isPresented: $showDatePicker) {
                                 DatePicker("Select Date", selection: $weekStore.selectedDate)
                                     .datePickerStyle(GraphicalDatePickerStyle())
-                                    .cornerRadius(15)
-                                    .shadow(color: .black, radius: 5)
-                                    .padding()
-                                    .presentationDetents([.height(400), .fraction(20), .medium, .large])
                                     .onChange(of: weekStore.selectedDate, perform: { _ in
                                         showDatePicker = false
                                     })
-                            }
+                                    .frame(width: 300)
+                                    .accentColor(userState == .normal ? .red : .blue)
                         }
                     }
                     ToolbarItem(placement: .navigationBarLeading){

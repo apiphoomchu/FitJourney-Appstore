@@ -96,6 +96,7 @@ struct ContentView: View {
                                     StreakSectionView()
                                         .frame(height: 200)
                                     landscapeAdditionalContent
+                                        .padding(.top,10)
                                 }
                             }
                             HStack {
@@ -143,9 +144,6 @@ struct ContentView: View {
                     }
                     .sheet(isPresented: $isShowFitivitySummaryWeek){
                         FitivityWeekView()
-                    }
-                    .sheet(isPresented: $isShowTutorials){
-                        TutorialsView()
                     }
                 }
                 OnBoardView()
@@ -512,7 +510,6 @@ struct ContentView: View {
                         .frame(width: 10, height: 10)
                         .foregroundStyle(colorScheme == .dark ? .white : .black)
                 }
-                
                 Text("Your weekly insights.")
                     .font(.subheadline)
                     .foregroundColor(colorScheme == .dark ? .white.opacity(0.6) : .black.opacity(0.6))

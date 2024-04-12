@@ -151,52 +151,41 @@ struct OnBoardView: View {
                 .edgesIgnoringSafeArea(.bottom)
                 .animation(.easeOut(duration: 0.16))
             }
-            else if(onBoardStep == .end){
-                Button(action:{
-                    isShowTutorials.toggle()
-                    
-                }){
-                    Text("Need app tutorials? Click here!")
-                        .foregroundStyle(userState == .normal ? .pink : .blue)
-                        .underline()
-                        .padding(.horizontal, 15)
-                }
-            }
             Spacer().frame(maxHeight: 40)
-            Button(onBoardStep == .end ? "Get Start!":"Continue") {
+            Button(action: {
                 withAnimation {
-                    if(onBoardStep == .fillInfo){
-                        if(userHeight.isInt && userWeight.isInt && goalCals.isInt && goalMinutes.isInt){
+                    switch onBoardStep {
+                    case .fillInfo:
+                        if userHeight.isInt, userWeight.isInt, goalCals.isInt, goalMinutes.isInt {
                             userWeightPers = Int(userWeight) ?? 0
                             userHeightPers = Int(userHeight) ?? 0
                             goalCal = Double(Int(goalCals) ?? 0)
                             goalMinute = Double(Int(goalMinutes) ?? 0)
                             onBoardStep = .end
-                        }else{
+                        } else {
                             showInputAlert.toggle()
                         }
-                    }
-                    else if(onBoardStep == .end){
-                        if(username.isEmpty){
+                    case .end:
+                        if username.isEmpty {
                             username = "Cute Bird 🦤"
                         }
                         isFirstLaunch = false
                         onBoardStep = .start
-                    }
-                    else{
+                    default:
                         onBoardStep = .fillInfo
                     }
                 }
+            }) {
+                Text(onBoardStep == .end ? "Get Start!" : "Continue")
+                    .fontWeight(.bold)
+                    .foregroundStyle(.white)
+                    .padding(.vertical, 15)
+                    .padding(.horizontal, UIDevice.current.userInterfaceIdiom == .pad ? 150 : 90)
+                    .background(userState == .normal ? Color.pink : Color.blue)
+                    .cornerRadius(15)
             }
-            .padding(.vertical,15)
-            .padding(.horizontal, UIDevice.current.userInterfaceIdiom == .pad ? 150 : 90)
-            .background(userState == .normal ? .pink : .blue)
-            .fontWeight(.bold)
-            .foregroundStyle(.white)
-            .cornerRadius(15)
-        }
-        .sheet(isPresented: $isShowTutorials){
-            TutorialsView()
+
+            
         }
         .onTapGesture {
             self.hideKeyboard()

@@ -19,7 +19,7 @@ struct SettingView: View {
     @FocusState private var focusedField: GeneralField?
     @State private var showInputAlert = false
     @State private var showResetConfirm = false
-    
+    @State private var isShowTutorials = false
     var body: some View {
         NavigationView{
             ScrollView{
@@ -189,9 +189,4 @@ struct SettingView: View {
             dismiss()
         }.foregroundStyle(userState == .normal ? .red : .blue)
     }
-}
-
-
-#Preview {
-    SettingView()
 }

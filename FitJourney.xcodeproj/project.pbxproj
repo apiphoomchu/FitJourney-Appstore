@@ -11,10 +11,8 @@
 		C16D28552BB3FB78007BC48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D28542BB3FB78007BC48E /* Assets.xcassets */; };
 		C17603182BB40DBD00C50F75 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602EA2BB40DBD00C50F75 /* Date+Extension.swift */; };
 		C17603192BB40DBD00C50F75 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602EB2BB40DBD00C50F75 /* CGPointExtension.swift */; };
-		C176031A2BB40DBD00C50F75 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = C17602ED2BB40DBD00C50F75 /* demo.mov */; };
 		C176031B2BB40DBD00C50F75 /* WeeksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F02BB40DBD00C50F75 /* WeeksTabView.swift */; };
 		C176031C2BB40DBD00C50F75 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F12BB40DBD00C50F75 /* WeekView.swift */; };
-		C176031D2BB40DBD00C50F75 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F32BB40DBD00C50F75 /* DemoView.swift */; };
 		C176031E2BB40DBD00C50F75 /* StreakSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F42BB40DBD00C50F75 /* StreakSectionView.swift */; };
 		C176031F2BB40DBD00C50F75 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F52BB40DBD00C50F75 /* OnBoardView.swift */; };
 		C17603202BB40DBD00C50F75 /* ActivityGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17602F72BB40DBD00C50F75 /* ActivityGraphView.swift */; };
@@ -43,6 +41,8 @@
 		C17603372BB40DBD00C50F75 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603152BB40DBD00C50F75 /* CoreDataStack.swift */; };
 		C17603382BB40DBD00C50F75 /* UserDataEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603162BB40DBD00C50F75 /* UserDataEnum.swift */; };
 		C17603392BB40DBD00C50F75 /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17603172BB40DBD00C50F75 /* ExerciseData.swift */; };
+		C176033B2BB410ED00C50F75 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C176033A2BB410ED00C50F75 /* Launch Screen.storyboard */; };
+		C176033D2BB4114600C50F75 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C176033C2BB4114600C50F75 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,10 +51,8 @@
 		C16D28542BB3FB78007BC48E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C17602EA2BB40DBD00C50F75 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		C17602EB2BB40DBD00C50F75 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
-		C17602ED2BB40DBD00C50F75 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 		C17602F02BB40DBD00C50F75 /* WeeksTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksTabView.swift; sourceTree = "<group>"; };
 		C17602F12BB40DBD00C50F75 /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
-		C17602F32BB40DBD00C50F75 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		C17602F42BB40DBD00C50F75 /* StreakSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreakSectionView.swift; sourceTree = "<group>"; };
 		C17602F52BB40DBD00C50F75 /* OnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
 		C17602F72BB40DBD00C50F75 /* ActivityGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityGraphView.swift; sourceTree = "<group>"; };
@@ -83,6 +81,8 @@
 		C17603152BB40DBD00C50F75 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		C17603162BB40DBD00C50F75 /* UserDataEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataEnum.swift; sourceTree = "<group>"; };
 		C17603172BB40DBD00C50F75 /* ExerciseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
+		C176033A2BB410ED00C50F75 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C176033C2BB4114600C50F75 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +124,7 @@
 				C17602EE2BB40DBD00C50F75 /* Views */,
 				C16D28502BB3FB77007BC48E /* FitJourneyApp.swift */,
 				C16D28542BB3FB78007BC48E /* Assets.xcassets */,
+				C176033A2BB410ED00C50F75 /* Launch Screen.storyboard */,
 			);
 			path = FitJourney;
 			sourceTree = "<group>";
@@ -140,7 +141,7 @@
 		C17602EC2BB40DBD00C50F75 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C17602ED2BB40DBD00C50F75 /* demo.mov */,
+				C176033C2BB4114600C50F75 /* logo.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -168,7 +169,6 @@
 		C17602F22BB40DBD00C50F75 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				C17602F32BB40DBD00C50F75 /* DemoView.swift */,
 				C17602F42BB40DBD00C50F75 /* StreakSectionView.swift */,
 				C17602F52BB40DBD00C50F75 /* OnBoardView.swift */,
 				C17602F62BB40DBD00C50F75 /* FitivityView */,
@@ -317,8 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C176033D2BB4114600C50F75 /* logo.png in Resources */,
+				C176033B2BB410ED00C50F75 /* Launch Screen.storyboard in Resources */,
 				C16D28552BB3FB78007BC48E /* Assets.xcassets in Resources */,
-				C176031A2BB40DBD00C50F75 /* demo.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +344,6 @@
 				C17603252BB40DBD00C50F75 /* SettingView.swift in Sources */,
 				C17603222BB40DBD00C50F75 /* ActivityGraphWeekView.swift in Sources */,
 				C17603212BB40DBD00C50F75 /* FitivityView.swift in Sources */,
-				C176031D2BB40DBD00C50F75 /* DemoView.swift in Sources */,
 				C17603202BB40DBD00C50F75 /* ActivityGraphView.swift in Sources */,
 				C176031C2BB40DBD00C50F75 /* WeekView.swift in Sources */,
 				C17603312BB40DBD00C50F75 /* CameraViewWrapper.swift in Sources */,
@@ -494,16 +494,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"FitJourney/Preview Content\"";
 				DEVELOPMENT_TEAM = 2BEURLLP9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to monitor your exercise activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,6 +513,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apiphoom.FitJourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -523,16 +529,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"FitJourney/Preview Content\"";
 				DEVELOPMENT_TEAM = 2BEURLLP9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to monitor your exercise activities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,6 +548,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apiphoom.FitJourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
