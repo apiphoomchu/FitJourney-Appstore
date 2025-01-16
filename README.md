@@ -7,6 +7,7 @@
 Can't believe it? **Cry about it.** 🏆😭
 
 ---
+<img width="424" alt="Screenshot 2568-01-16 at 19 56 20" src="https://github.com/user-attachments/assets/af6680a8-73ed-4361-a1f8-24259736a8e9" />
 
 Welcome to **FitJourney**, the fitness app designed to make you healthy, happy, and maybe slightly more confused about life (and code). 😅
 
