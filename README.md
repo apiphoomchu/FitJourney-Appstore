@@ -1,5 +1,13 @@
 # FitJourney 🚀💪
 
+---
+
+## **Wait... What?!**
+**This app won the Swift Student Challenge 2024 as a Distinguished Winner.**  
+Can't believe it? **Cry about it.** 🏆😭
+
+---
+
 Welcome to **FitJourney**, the fitness app designed to make you healthy, happy, and maybe slightly more confused about life (and code). 😅
 
 ---
